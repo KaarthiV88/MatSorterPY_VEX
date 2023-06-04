@@ -31,3 +31,15 @@ def when_started1():
             motor_20.spin_for(FORWARD, 60.5, DEGREES, wait=True)
             wait(0.5, SECONDS)
             opticVal = 0
+            
+        if opticVal < 47 and opticVal > 36:
+            motor_19.spin_to_position(240, DEGREES, wait=True)
+            wait(1, SECONDS)
+            motor_20.spin_for(FORWARD, 60.5, DEGREES, wait=True)
+            wait(1.5, SECONDS)
+            opticVal = 0
+        runAmount = runAmount + 1
+        opticVal = 0
+        wait(5, MSEC)
+    motor_19.stop()
+    motor_20.stop()
