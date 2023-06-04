@@ -53,3 +53,8 @@ def when_started2():
     if(opticVal >= 1):
         global opticVal pass
     
+
+ws2 = Thread( when_started2 )
+when_started1()
+
+    
