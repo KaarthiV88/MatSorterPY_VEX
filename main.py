@@ -50,4 +50,6 @@ def when_started2():
     global myVariable, runAmount, vexcode_brain_precision, vexcode_console_precision
     pass
     
+    if(opticVal >= 1):
+        global opticVal pass
     
