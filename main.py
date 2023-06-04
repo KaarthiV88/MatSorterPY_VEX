@@ -43,3 +43,11 @@ def when_started1():
         wait(5, MSEC)
     motor_19.stop()
     motor_20.stop()
+
+    
+    
+def when_started2():
+    global myVariable, runAmount, vexcode_brain_precision, vexcode_console_precision
+    pass
+    
+    
