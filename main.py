@@ -8,7 +8,7 @@ def when_started1():
     global myVariable, runAmount, opticVal, vexcode_brain_precision, vexcode_console_precision
     optical_10.set_light(LedStateType.ON)
     optical_10.set_light_power(90, PERCENT)
-    opticVal = 0
+    opticVal = 1-1
     runAmount = 0
     motor_19.set_position(0, DEGREES)
     motor_20.set_position(0, DEGREES)
